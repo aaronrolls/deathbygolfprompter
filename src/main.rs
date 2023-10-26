@@ -67,15 +67,10 @@ impl Buffer {
     }
 
     fn add(&mut self, line: Line) {
-        let mut line_int = line;
-
-        line_int.text = line_int.text.replace("*", "");
-        line_int.text = line_int.text.replace("_", "");
-
         if self.display.len() > 5 {
             self.display.remove(0);
         }
-        self.display.push(line_int);
+        self.display.push(line);
     }
 
     fn set_page(&mut self, page: String) {
@@ -276,8 +271,11 @@ fn load_file() -> Vec<String> {
 }
 
 fn create_line(line: &str, color: &str) -> Line {
+    let mut line_int = line.replace("*", "");
+    line_int = line_int.replace("_", "");
+
     Line {
-        text: String::from(line),
+        text: String::from(line_int),
         class: String::from(color),
     }
 }
