@@ -69,8 +69,8 @@ impl Buffer {
     fn add(&mut self, line: Line) {
         let mut line_int = line;
 
-        line_int.text.replace("*", "");
-        line_int.text.replace("_", "");
+        line_int.text = line_int.text.replace("*", "");
+        line_int.text = line_int.text.replace("_", "");
 
         if self.display.len() > 5 {
             self.display.remove(0);
