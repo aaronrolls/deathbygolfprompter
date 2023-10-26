@@ -1,0 +1,8 @@
+/Users/aaronrolls/Coding/Rust/deathbygolfprompter/target/debug/deps/dioxus_interpreter_js-336e5d8c484c1bd1.rmeta: /Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/lib.rs /Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/sledgehammer_bindings.rs /Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/./interpreter.js /Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/./common.js
+
+/Users/aaronrolls/Coding/Rust/deathbygolfprompter/target/debug/deps/dioxus_interpreter_js-336e5d8c484c1bd1.d: /Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/lib.rs /Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/sledgehammer_bindings.rs /Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/./interpreter.js /Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/./common.js
+
+/Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/lib.rs:
+/Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/sledgehammer_bindings.rs:
+/Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/./interpreter.js:
+/Users/aaronrolls/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dioxus-interpreter-js-0.4.0/src/./common.js:
