@@ -1,6 +1,5 @@
 pub fn get_text() -> String {
     String::from("
-
     # Page 7
     ## ACT ONE
     
@@ -387,7 +386,7 @@ pub fn get_text() -> String {
     
     **GRANDPA.** _(starting to follow her)_ Oh. Okay. Bye.
     
-    sd: _(calling out:)_ OR MAYBE HE'S A GENETISIST.
+    **GRANDPA.** _(calling out:)_ OR MAYBE HE'S A GENETISIST.
     
     sd: _(He goes back to the table, blows on the hearing aid, sucks on it, spits out some wax, repeats a few times and then puts the devise back in his ear. He suddenly notices the ball still on its tee on the floor. He goes over to it, picks up the club, and is just getting back in to position when...)_
     
@@ -417,7 +416,7 @@ pub fn get_text() -> String {
     
     **GRANDPA.** Well, get in here for heaven’s sake.
     
-    sd: _(Opens the back door. ASHLEX enters.)_
+    sd: _(Opens the back door. ASHLEY enters.)_
     
     **ASHLEY.** _(on the verge of tears)_ Oh, Grandpa!
     
@@ -616,7 +615,7 @@ pub fn get_text() -> String {
     
     # Page 23
     
-    **GRANDPA.** _(patting her)_ Come on. There there. It’s okay. _(More sobbing from_ **ASHLEY.** _Finally...)_
+    **GRANDPA.** _(patting her)_ Come on. There there. It’s okay. _(More sobbing from_ **ASHLEY** _Finally...)_
     
     **GRANDPA.** Ashley, are you sure that all this concern about your new marriage isn’t because I wasn’t able to be at your wedding?
     
@@ -668,11 +667,11 @@ pub fn get_text() -> String {
     
     **GRANDPA.** Just about.
     
-    sd: _He reluctdntly puts down the club and heads towards the closet._ Ai _he approaches he points at it and says...)_
+    sd: _He reluctantly puts down the club and heads towards the closet._ Ai _he approaches he points at it and says...)_
     
     **GRANDPA.** Closet.
     
-    sd: _(He opens the door and then backs up when he sees_ **TONY. TONY** _has changed into Grandpa’s loud plaid pants and a black polo shirt.)_ _(Frozen for a moment while the two men stare at each other. Finally:)_
+    sd: _(He opens the door and then backs up when he sees_ **TONY** . **TONY** _has changed into Grandpa’s loud plaid pants and a black polo shirt.)_ _(Frozen for a moment while the two men stare at each other. Finally:)_
     
     **TONY.** Surprise!
     
@@ -1094,7 +1093,7 @@ pub fn get_text() -> String {
     
     **ASHLEY.** _(sudden idea)_ On the other hand, maybe we should tuck you away.
     
-    _(She goes over to the closet and checks the lock. Pointing the gun, she goes up to_ **TONY.)**
+    sd: _(She goes over to the closet and checks the lock. Pointing the gun, she goes up to_ **TONY)**
     
     **ASHLEY.** Alright; even though it’s absolutely ridiculous I’ll ask him. But you have to wait in that closet.
     
@@ -1128,7 +1127,11 @@ pub fn get_text() -> String {
     
     **ASHLEY.** Okay, now step inside.
     
-    sd: (TONY _steps inside the closet but backs out again to say:)_ TONY. You’re making a big mistake. _(He goes in again and_ ASHLEY _is about to shut the door when [seemingly] a part of him [actually a double wear­ing Tony's clothes] is seen agressively backing out one more time._ ASHLEY _pushes her gun against this double and pushes him all the way in saying...)_
+    sd: (TONY _steps inside the closet but backs out again to say:)_ 
+    
+    **TONY.** You’re making a big mistake. 
+    
+    sd: _(He goes in again and_ ASHLEY _is about to shut the door when [seemingly] a part of him [actually a double wear­ing Tony's clothes] is seen agressively backing out one more time._ ASHLEY _pushes her gun against this double and pushes him all the way in saying...)_
     
     **ASHLEY.** All right. That’s enough. Just calm down and get in there.
     
@@ -1244,11 +1247,11 @@ pub fn get_text() -> String {
     
     **ASHLEY.** I don’t, know.
     
-    **PRESCOTT.** _(He stops cutting._ j You didn't ask him?!
+    **PRESCOTT.** _(He stops cutting.)_ You didn't ask him?!
     
     **ASHLEY.** I asked him but we haven’t had a chance to actu­ally get it.
     
-    **PRESCOTT.** So what, you’re.. .waiting for the moment?
+    **PRESCOTT.** So what, you’re...waiting for the moment?
     
     **ASHLEY.** I guess.
     
@@ -1536,7 +1539,11 @@ pub fn get_text() -> String {
     
     **ASHLEY.** I don’t think I can do that! I can’t be turning you loose just based on this crazy idea you told me which I have no way of knowing whether or not is even remotely....
     
-    **PRESCOTT.** _(coming in through the front door)_ Ashley!! _(She freezes.)_ There you are. I’ve been looking for you.
+    **PRESCOTT.** _(coming in through the front door)_ Ashley!! 
+    
+    sd: _(She freezes.)_ 
+    
+    **PRESCOTT.** There you are. I’ve been looking for you.
     
     **ASHLEY.** Prescott! How did you get out of the bathroom?
     
@@ -1666,7 +1673,7 @@ pub fn get_text() -> String {
     
     **ASHLEY.** No, I'm not going to have everything completely torn apart because of a strange man who I’ve never met in my life before, who himself may very well be a murderer but even if he’s not a murderer, he’s some­one who told me that what he does for a living is file horses’ teeth!
     
-    sd: _(Unseen by **ASHLEY.** PRESCOTT _enters through the back door and quietly walks up to her as she's talking.)_
+    sd: _(Unseen by **ASHLEY** PRESCOTT _enters through the back door and quietly walks up to her as she's talking.)_
     
     **ASHLEY.** I won’t let everything I've been dreaming of all my life be destroyed by a horse tooth fi...
     
@@ -1856,7 +1863,7 @@ pub fn get_text() -> String {
     
     **ASHLEY.** Prescott, do you have your cell phone with you?
     
-    **PRESCOTT.** _(patting his pocket)Ycah'C_
+    **PRESCOTT.** _(patting his pocket)_ Yeah
     
     **ASHLEY.** Well then, don’t you think we should call the police?
     
@@ -2036,7 +2043,7 @@ pub fn get_text() -> String {
     
     **GRANDPA.** _(Shocked by what he has just witnessed, he heads for the back door. Calling out:)_ Ashley. Ashley honey, we need to have a little talk. ‘Fraid I got some bad news.
     
-    sd: _(He exits.)_ _(Just as the back door closes, a traumatized and gag­ging ASHLEV bursts through the front door carrying the revolver in one hand and an empty glass in the other. In a stage whisper as she heads to the closet;)_
+    sd: _(He exits.)_ _(Just as the back door closes, a traumatized and gag­ging ASHLEY bursts through the front door carrying the revolver in one hand and an empty glass in the other. In a stage whisper as she heads to the closet;)_
     
     **ASHLEY.** Tony, _(gag)_ You were right the whole time. _(gaggag)_ Prescott’s been lying. That stuff he brought with him?
     
@@ -2134,7 +2141,7 @@ pub fn get_text() -> String {
     
     sd: _(Determined to stop her and keep her out of sight,_ **TONY** _grabs her to pull her lower - an act which sends both of them crashing to the f loor.)_
     
-    **GRANDPA.** _(Entering from the back door. Seeing TOW and_ **MURIEL** _entwined on the floor. Pointing and calling out:)_ You two got to cut that out!
+    **GRANDPA.** _(Entering from the back door. Seeing TONY and_ **MURIEL** _entwined on the floor. Pointing and calling out:)_ You two got to cut that out!
     
     **ASHLEY.** _(entering from the stairs)_ Tony!
     
@@ -2412,7 +2419,7 @@ pub fn get_text() -> String {
     
     sd: **(GRANDPA** _exits andTONY moves towards the stairs.)_
     
-    So don't forget, when I signal, slip it under.
+    **TONY.** So don't forget, when I signal, slip it under.
     
     sd: _(He exits up the stairs.)_
     
@@ -2839,6 +2846,5 @@ pub fn get_text() -> String {
     
     
     
-
 ")
 }
