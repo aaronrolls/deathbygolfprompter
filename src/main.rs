@@ -67,7 +67,7 @@ impl Buffer {
     }
 
     fn add(&mut self, line: Line) {
-        if self.display.len() > 10 {
+        if self.display.len() > 5 {
             self.display.remove(0);
         }
         self.display.push(line);
