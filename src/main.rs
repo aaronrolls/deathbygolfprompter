@@ -67,10 +67,15 @@ impl Buffer {
     }
 
     fn add(&mut self, line: Line) {
+        let mut line_int = line;
+
+        line_int.text.replace("*", "");
+        line_int.text.replace("_", "");
+
         if self.display.len() > 5 {
             self.display.remove(0);
         }
-        self.display.push(line);
+        self.display.push(line_int);
     }
 
     fn set_page(&mut self, page: String) {
