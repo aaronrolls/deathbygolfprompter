@@ -1,24 +1,28 @@
-[package]
-name = "death_by_golf_prompter_web"
-version = "0.1.0"
-edition = "2021"
-description = "An app to learn Death By Golf lines."
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-dioxus = "0.4.0"
-dioxus-web = "0.4.0"
-
-
-[package.metadata.bundle]
+[application]
 name = "Death By Golf"
 identifier = "com.golf.deathbygolf"
 version = "1.0.0"
+default_platform = "web"
 copyright = "Copyright Aaron Rolls 2022. All rights reserved."
 category = "Games"
 short_description = "Practice Death By Golf Script"
 long_description = "An App to practice the Death By Golf script lines"
-
-[application]
 out_dir = "docs"
 base_path = "deathbygolfprompter"
+
+[web.app]
+
+# HTML title tag content
+title = "Death By Golf"
+
+[web.watcher]
+
+# when watcher trigger, regenerate the `index.html`
+reload_html = true
+
+# which files or dirs will be watcher monitoring
+watch_path = ["src", "public"]
+
+[web.resource]
+
+[web.resource.dev]
