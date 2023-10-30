@@ -253,6 +253,10 @@ fn go_back(lines: &Vec<String>, char: &str, current_line: &usize, mut repeat: us
         while counter > 0 {
             if lines[counter].contains(char) {
                 return counter;
+            } else if char == "TONY." {
+                if lines[counter].contains("**PRESCOTT.**") {
+                    return counter;
+                }
             }
 
             counter -= 1;
@@ -319,7 +323,7 @@ fn App(cx: Scope) -> Element {
         char.with_mut(|c| c.set("TONY."));
     };
     cx.render(rsx! {
-        p{ "Ver 0.1.2 Character - {char.read().charature.clone()} - {buffer.read().page_name.clone()}"}
+        p{ "Ver 0.1.3 Character - {char.read().charature.clone()} - {buffer.read().page_name.clone()}"}
         div {
             height:"55vh",
             overflow:"auto",
