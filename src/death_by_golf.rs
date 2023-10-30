@@ -1,7 +1,7 @@
 pub fn get_text() -> String {
     String::from("
     # Page 7
-    ## ACT ONE
+    ## Act 1
     
     sd: **(GRANDPA** _is facing the stage right window, poised over a golf ball i'hnt’s teed up on the floor. Gripping the club, arms stretched behind him, he's getting ready for the big swing. Just as he’s about to unleash, he pauses, then lowers the club, steps away from the ball, goes over to the window and - so that the ball won’t break anything - opens the window. Then he returns to the ball and gets into position again. He is maneuvering himself into full swing mode when, unheard by him, there is knocking at the door.)_
     
@@ -1067,7 +1067,7 @@ pub fn get_text() -> String {
     
     **TONY.** I want to offer you a deal.
     
-    **ASHLEY.** No thanks. I’m not making any deals with you. **TONY.** Listen to this; you’re gonna like it.
+    **ASHLEY.** No thanks. I’m not making any deals with you. **TONY**. Listen to this; you’re gonna like it.
     
     **ASHLEY.** I’m not.
     
@@ -1273,7 +1273,7 @@ pub fn get_text() -> String {
     
     **ASHLEY.** Prescott I am into it. I love that you want to do this. I’ll go ask him about it right now.
     
-    **ASHLEY.** _(She turns to go, sees the closet, and turns back to_ PRESCOTT. _The cutting is starting to look a little scary.)_ But first I want us to talk.
+    **ASHLEY.** _(She turns to go, sees the closet, and turns back to_ **PRESCOTT**. _The cutting is starting to look a little scary.)_ But first I want us to talk.
     
     **PRESCOTT.** About what?
     
@@ -1739,7 +1739,7 @@ pub fn get_text() -> String {
     
     **ASHLEY.** Yes. But I was going to let you out because I’ve realized I don’t really trust the man in the closet.
     
-    # Page 31
+    # Page 51
     
     **PRESCOTT.** Okay. Good. Then if it wouldn’t be too much trouble, I think this might be a good moment - right now - for you to tell me; who is the man in the closet?
     
@@ -2573,11 +2573,11 @@ pub fn get_text() -> String {
     
     **PRESCOTT.** Okay; while I was in the closet I spotted some- I thing, something amazing, and I don’t know why I ] didn’t use it right then and there.
     
-    **MURIEL.** _(impatiently)_ WHAT MAS IT?
+    **MURIEL.** _(impatiently)_ WHAT WAS IT?
     
     **PRESCOTT.** A box.
     
-    **MURIEL. Yes? 
+    **MURIEL.** Yes? 
     
     **PRESCOTT.** A box of firecrackers. 
     
@@ -2817,7 +2817,7 @@ pub fn get_text() -> String {
     
     **GRANDPA.** GOOD.
     
-    # Page 77
+    # Page 78
     
     **MURIEL.** And I think I can help you quite a bit.
     
@@ -2841,10 +2841,7 @@ pub fn get_text() -> String {
     
     **MURIEL.** Yon and I. Mr. Deemer, your life is about to go through some radical changes and nothing would please me more than to help make those changes as positive as I can. I realize we haven’t known each other very long but I feel that my legal expertise coupled with the fact that we’ve been through some highly charged life experiences together should create a pro­fessional and, if I may say so, personal rapport that could help make your upcoming life transitions much more comfortable. _(meaningfully)_ In fact, as far as you and I are concerned, I think it all could be made very comfortable, _(pause) What_ do you think of that?
     
-    **GRANDPA.** _(maintaining his pleasant demeanor, picking up the megaphone)_ Excuse me for a second. I need to tell Ashley something, _(going to the stairs and aiming the megaphone up them)_ SAND TRAP!!!
-    
-    
-    
-    
+    **GRANDPA.** _(maintaining his pleasant demeanor, picking up the megaphone)_ Excuse me for a second. I need to tell Ashley something, _(going to the stairs and aiming the megaphone up them)_ SAND TRAP!!! 
+     
 ")
 }
