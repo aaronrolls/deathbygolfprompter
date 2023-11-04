@@ -1923,14 +1923,6 @@ pub fn get_text() -> String {
     
     **PRESCOTT.** When I looked through the window and saw you checking out the rig over there I had to rush in and assure you that...
     
-    **MURIEL.** _(gasp gasp)_ What was?
-    
-    **PRESCOTT.** _(pointing to the closet, taking her arm, leading her over)_ This. Over here. I’m sure someone with your experience could whip together a much more effec­tive set-up but hey that’s why you’re the professional. I’ve got to admit though - I frankly wasn’t expecting them to send a woman.
-    
-    **MURIEL.** Who?
-    
-    **PRESCOTT.** Who? Whoever I talked to. I thought they’d send a man. Isn’t that terrible? All the progress women have made and I’m still assuming there’s a pest con­trol glass ceiling.
-    
     sd: (He notices that MURIEL is still trying to catch her breath.)
     
     **PRESCOTT.** I’m sorry. Did I startle you?
@@ -1941,9 +1933,9 @@ pub fn get_text() -> String {
     
     # Page 57
     
-    **MURIEL.** (gasp gasp) What was?
+    **MURIEL.** _(gasp gasp)_ What was?
     
-    **PRESCOTT.** (pointing to the closet, taking her arm, leading her over) This. Over here. I'm sure someone with your experience could whip together a much more effec tive set-up but hey that's why you're the professional. I've got to admit though - U frankly wasn't expecting them to send a woman.
+    **PRESCOTT.** _(pointing to the closet, taking her arm, leading her over)_ This. Over here. I’m sure someone with your experience could whip together a much more effec­tive set-up but hey that’s why you’re the professional. I’ve got to admit though - I frankly wasn’t expecting them to send a woman.
     
     **MURIEL.** Who?
     
@@ -2017,7 +2009,7 @@ pub fn get_text() -> String {
     
     # Page 59
     
-    sd: _(He goes into bathroom and shuts the door.)_ _(There is a muffled thumping noise followed by the sound of the inside door-trim cracking as it's being pried off. Muriel’s colorful file is then seen pushing through the track above the knob. The file descends and begins loudly working through the bolt. After a frenzy of aggres­sive sawing, there is a click and the door bursts open.)_ **(TONY,** _gasping, holding a cloth over his face with one hand and Muriel’s nail file in the other, somehow man­ages to drag a collapsed_ **MURIEL** _toward the couch. He lays her down on it, then rushes back to the closet and pushes towel and hose back into position. Then he hur­ries back to_ **MURIEL** _and starts to give_ _her mouth to mouth resuscitation.)_ **(GRANDPA** _at this point, unseen_ _by_ **TONY** _and_ **MURIEL.** _enters from the bathroom and is horrified by what he thinks is furtive passion.)_ _Stepping away from the bathroom door he hovers in the stairwell where he’s not so noticeable.)_ _(As_ **MURIEL** _comes to...)_
+    sd: _(He goes into bathroom and shuts the door.)_ _(There is a muffled thumping noise followed by the sound of the inside door-trim cracking as it's being pried off. Muriel’s colorful file is then seen pushing through the track above the knob. The file descends and begins loudly working through the bolt. After a frenzy of aggres­sive sawing, there is a click and the door bursts open.)_ **(TONY,** _gasping, holding a cloth over his face with one hand and Muriel’s nail file in the other, somehow man­ages to drag a collapsed_ **MURIEL** _toward the couch. He lays her down on it, then rushes back to the closet and pushes towel and hose back into position. Then he hur­ries back to_ **MURIEL** _and starts to give_ _her mouth to mouth resuscitation.)_ **(GRANDPA** _at this point, unseen_ _by_ **TONY** _and_ **MURIEL**. _enters from the bathroom and is horrified by what he thinks is furtive passion.)_ _Stepping away from the bathroom door he hovers in the stairwell where he’s not so noticeable.)_ _(As_ **MURIEL** _comes to...)_
     
     **TONY.** Come on! Come on!
     
@@ -2151,7 +2143,7 @@ pub fn get_text() -> String {
     
     **MURIEL.** _(also rising)_ Ashley?
     
-    **TONY.** _(while he holds down_ **MURIEL.** _To_ **ASHLEY)** Ashley where’s that gun?
+    **TONY.** _(while he holds down_ **MURIEL**. _To_ **ASHLEY)** Ashley where’s that gun?
     
     **GRANDPA.** What gun?
     
@@ -2223,15 +2215,15 @@ pub fn get_text() -> String {
     
     **ASHLEY.** I am married to a murderer.
     
-    **GRANDPA.** _(angrily shaking his finger at_ **TONY)** All right, now **I** you’ve gone too far!
+    **GRANDPA.** _(angrily shaking his finger at_ **TONY)** All right, now you’ve gone too far!
     
-    **PRESCOTT.** _(from outside, using the megaphone)_ Hey listen **J** everybody, I want us to try and settle this in a mature, **I** responsible way.
+    **PRESCOTT.** _(from outside, using the megaphone)_ Hey listen everybody, I want us to try and settle this in a mature, responsible way.
     
     **GRANDPA.** That’s my megaphone.
     
     **ASHLEY.** Shhh... 
     
-    **PRESCOTT.** Believe me, I don’t want to cause any trouble. I Whatever you’re all thinking in there, you need to know that I’m not a dangerous murderer or anything ;l like that. As it happens I am a simple genealogist who **I** needs a certain birth certificate. That’s all. What I’d | like you to do now is slip the birth certificate under | the front door. We don’t need any confrontations. ] Okay? Under the door. Not a big deal.
+    **PRESCOTT.** Believe me, I don’t want to cause any trouble. I Whatever you’re all thinking in there, you need to know that I’m not a dangerous murderer or anything ;l like that. As it happens I am a simple genealogist who **I** needs a certain birth certificate. That’s all. What I’d like you to do now is slip the birth certificate under the front door. We don’t need any confrontations. Okay? Under the door. Not a big deal.
     
     **GRANDPA.** Who is that?
     
@@ -2287,9 +2279,11 @@ pub fn get_text() -> String {
     
     **ASHLEY.** By marrying me!
     
-    **MURIEL.** Yes, but he needed Bonnie Mills to keep quiet. **E ASHLEY.** Oh my God!
+    **MURIEL.** Yes, but he needed Bonnie Mills to keep quiet. 
     
-    **MURIEL.** At first he couldn’t do anything drastic because **I** they’d been seen together in Macon. But once he **I** spotted Tony...
+    **ASHLEY.** Oh my God!
+    
+    **MURIEL.** At first he couldn’t do anything drastic because they’d been seen together in Macon. But once he spotted Tony...
     
     **TONY.** My lucky day.
     
@@ -2305,9 +2299,11 @@ pub fn get_text() -> String {
     
     **MURIEL.** Tony and I pieced together the loose ends just **I** now in the bathroom. 
     
-    **ASHLEY.** But what were you doing here in the first place? **I MURIEL.** I’ve been on the case since it first came up and **I** a week ago, on my own, I found the link between **I** Rushton and you and Mr. Deemer so I decid...
+    **ASHLEY.** But what were you doing here in the first place? 
     
-    **PRESCOTT.** _(Offstage. Through the megaphone.)_ Okay every- **I** body, listen up! What’s the concept? I notice that the | birth certificate hasn’t been slipped under the door **i** yet. I advise getting going with that. I’m patient but there are limits.
+    **MURIEL.** I’ve been on the case since it first came up and **I** a week ago, on my own, I found the link between **I** Rushton and you and Mr. Deemer so I decid...
+    
+    **PRESCOTT.** _(Offstage. Through the megaphone.)_ Okay every- body, listen up! What’s the concept? I notice that the | birth certificate hasn’t been slipped under the door yet. I advise getting going with that. I’m patient but there are limits.
     
     **ASHLEY.** He’s going to kill us then. He really is going to kill us. _(screams)_
     
@@ -2321,7 +2317,7 @@ pub fn get_text() -> String {
     
     **ASHLEY.** Oh my God, what about fire?
     
-    **TONY. I** don't want Prescott to try and, you know, burn the house down. Luckily it's hard to do that without some kerosene or gas or something.
+    **TONY.** I don't want Prescott to try and, you know, burn the house down. Luckily it's hard to do that without some kerosene or gas or something.
     
     **ASHLEY.** Oh-oh. He’s got a big container full of kerosene or gas or something.
     
@@ -2501,7 +2497,7 @@ pub fn get_text() -> String {
     
     # Page 71
     
-    **PRESCOTT.** _(disguising his voice to sound like rony)^^._ I just tripped over some golf trophies. I’m gonna to come down now.
+    **PRESCOTT.** _(disguising his voice to sound like rony)._ I just tripped over some golf trophies. I’m gonna to come down now.
     
     sd: _(rushing down the stairs wearing Tony's pants and shirt)_
     
@@ -2517,7 +2513,7 @@ pub fn get_text() -> String {
     
     **ASHLEY.** Or heard anything either. Just you doing stuff upstairs.
     
-    **PRESCOTT.** What ’s Grandpa doing?
+    **PRESCOTT.** What’s Grandpa doing?
     
     **ASHLEY.** He’s in there guarding I guess. I hope this all isn’t too much of a strain on him.
     
@@ -2558,8 +2554,7 @@ pub fn get_text() -> String {
     **ASHLEY.** Maybe it was the wind. 
     
     **PRESCOTT.** _(momentarily angry)_ NO IT WAS NOT THE WIND! _(calmer)_ It was him. That bastard is up to some-thing. GOD HE’S CLEVER! We need to get ready. I need to get ready.                                                        
-    
-    sd: _(He rushes over to_ **MURIEL.)
+    sd: _(He rushes over to_ **MURIEL**)
     
     **PRESCOTT.** If you don’t mind...
     
@@ -2841,7 +2836,7 @@ pub fn get_text() -> String {
     
     **MURIEL.** Yon and I. Mr. Deemer, your life is about to go through some radical changes and nothing would please me more than to help make those changes as positive as I can. I realize we haven’t known each other very long but I feel that my legal expertise coupled with the fact that we’ve been through some highly charged life experiences together should create a pro­fessional and, if I may say so, personal rapport that could help make your upcoming life transitions much more comfortable. _(meaningfully)_ In fact, as far as you and I are concerned, I think it all could be made very comfortable, _(pause) What_ do you think of that?
     
-    **GRANDPA.** _(maintaining his pleasant demeanor, picking up the megaphone)_ Excuse me for a second. I need to tell Ashley something, _(going to the stairs and aiming the megaphone up them)_ SAND TRAP!!! 
-     
+    **GRANDPA.** _(maintaining his pleasant demeanor, picking up the megaphone)_ Excuse me for a second. I need to tell Ashley something, _(going to the stairs and aiming the megaphone up them)_ SAND TRAP!!!
+    
 ")
 }
