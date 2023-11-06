@@ -23,7 +23,8 @@ pub struct Buffer {
 }
 
 enum Charatures {
-    TonyPrescott,
+    Tony,
+    Prescott,
     Grandpa,
     Muriel,
     Ashley,
@@ -32,7 +33,8 @@ enum Charatures {
 impl Charatures {
     fn get_text(self) -> String {
         match self {
-            Charatures::TonyPrescott => String::from("Tony"),
+            Charatures::Tony => String::from("Tony"),
+            Charatures::Prescott => String::from("Prescott"),
             Charatures::Grandpa => String::from("Grandpa"),
             Charatures::Muriel => String::from("Muriel"),
             Charatures::Ashley => String::from("Ashley"),
@@ -171,10 +173,6 @@ fn get_current_number(lines: &Vec<String>, char: &str, current_line: &usize) -> 
             if lines[each].contains(c) {
                 if lines[each].contains(char) {
                     return each;
-                } else if char == "TONY." {
-                    if lines[each].contains("PRESCOTT.") {
-                        return each;
-                    }
                 }
                 prev_line = each;
             }
@@ -203,13 +201,6 @@ fn get_previous_number(lines: &Vec<String>, char: &str, current_line: &usize) ->
             if lines[counter].contains(c) {
                 if lines[counter].contains("sd:") {
                     counters.push(counter);
-                } else if char == "TONY." {
-                    if lines[counter].contains("PRESCOTT.") {
-                        counters.push(counter);
-                    } else {
-                        counters.push(counter);
-                        return counters;
-                    }
                 } else {
                     counters.push(counter);
                     return counters;
@@ -253,10 +244,6 @@ fn go_back(lines: &Vec<String>, char: &str, current_line: &usize, mut repeat: us
         while counter > 0 {
             if lines[counter].contains(char) {
                 return counter;
-            } else if char == "TONY." {
-                if lines[counter].contains("**PRESCOTT.**") {
-                    return counter;
-                }
             }
 
             counter -= 1;
@@ -297,9 +284,6 @@ impl Char {
 
     fn set(&mut self, name: &str) {
         let mut int_name = name;
-        if int_name.contains("PRESCOTT") {
-            int_name = "TONY"
-        }
         if int_name.contains(".") {
             self.charature = String::from(int_name);
         } else {
@@ -461,7 +445,19 @@ fn App(cx: Scope) -> Element {
             onclick: move |_| {
                 char.with_mut(|s| s.set("TONY"));
             },
-            "TONY/PRESCOTT"
+            "TONY"
+        }
+        button {
+            padding: "10px",
+            margin: "5px",
+            style: "-webkit-appearance: none;
+            -webkit-border-radius: 0;
+            border-radius: 0; color: black; font-weight: bold;
+            margin: 0.5vh; padding: 1vh; background-color: #d690d0;",
+            onclick: move |_| {
+                char.with_mut(|s| s.set("PRESCOTT"));
+            },
+            "PRESCOTT"
         }
         button {
             padding: "10px",
