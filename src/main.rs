@@ -307,7 +307,7 @@ fn App(cx: Scope) -> Element {
         char.with_mut(|c| c.set("TONY."));
     };
     cx.render(rsx! {
-        p{ "Ver 0.1.4 Character - {char.read().charature.clone()} - {buffer.read().page_name.clone()}"}
+        p{ "Ver 0.1.5 Character - {char.read().charature.clone()} - {buffer.read().page_name.clone()}"}
         div {
             height:"55vh",
             overflow:"auto",
