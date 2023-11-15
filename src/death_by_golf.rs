@@ -1067,7 +1067,9 @@ sd: _(He nods.)_ _(a long pause)_
 
 **TONY.** I want to offer you a deal.
 
-**ASHLEY.** No thanks. I’m not making any deals with you. **TONY**. Listen to this; you’re gonna like it.
+**ASHLEY.** No thanks. I’m not making any deals with you. 
+
+**TONY**. Listen to this; you’re gonna like it.
 
 **ASHLEY.** I’m not.
 
